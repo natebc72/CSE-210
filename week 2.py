@@ -6,6 +6,7 @@ def main():
         make_move(player, board)
         player = next_player(player)
     display_board(board)
+    print()
     print("Great Game! T'was a pleasure!") 
 
 def make_board():
